@@ -6,10 +6,15 @@ img {
     border-radius: 50%;
     width:15%;
     border: 3px solid #2b3748;
+    float: right;
 }
 .head {
     background-color: #2b3748;
     color: white;
+    height: max-content;
+    padding: 20px;
+    font-size: 10px;
+    margin: -30px;
 }
 #leftButton {
     border-top-left-radius: 30%;
@@ -17,6 +22,12 @@ img {
     border: 1px solid white;
     background-color: #2b3748;
     color: white;
+    padding: 10px 0;
+    margin: 10px;
+    margin-right: 0px;
+    margin-left: 25px;
+    width:40px;
+    margin-top:25px;
 }
 #rightButton {
     border-top-right-radius: 30%;
@@ -24,4 +35,9 @@ img {
     border: 1px solid white;
     background-color: #2b3748;
     color: white;
+    padding: 10px 0;
+    margin: 10px;
+    margin-left: 0px;
+    width:40px;
+    margin-top:25px;
 }
