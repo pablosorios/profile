@@ -1,9 +1,27 @@
 body {
     background-color: #f1f1f1;
     width: 100%;
-    height: 5%;
+}
+img {
+    border-radius: 50%;
+    width:15%;
+    border: 3px solid #2b3748;
 }
 .head {
+    background-color: #2b3748;
+    color: white;
+}
+#leftButton {
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+    border: 1px solid white;
+    background-color: #2b3748;
+    color: white;
+}
+#rightButton {
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 30%;
+    border: 1px solid white;
     background-color: #2b3748;
     color: white;
 }

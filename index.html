@@ -1,17 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <script src="script.js"></script>
+        <meta charset="utf-8"/>
         <link rel="stylesheet" href="style.css">
-        <title>Work Resume - Pablo Osorio</title>
+        <title>Pablo Osorio</title>
     </head>
     <body>
         <div id="top" class="head">
-            es | en
+            <button id="leftButton" onclick="changeLanguage('eng')">eng</button>
+            <button id="rightButton" onclick="changeLanguage('esp')">esp</button>
         </div>
+        <img src="./images/resume.jpg" title="Profile Picture" alt="Profile Picture"/>
         <h1>
             Pablo Osorio Salazar
         </h1>
-        <img src="./images/resume.jpg" title="Profile Picture" alt="Profile Picture"/>
+        <p id="siteContent">
+            This is the initial display language
+        </p>
+        <p id="extraContent">
+            Bilingual psychologist with experience in project management, digital product development, qualitative and quantitative information analysis, market research, consumer psychology, knowledge of Excel (advanced), SQL (advanced) and Python (basic). With special interest in product areas, marketing based on consumer insights. Creative, motivated, with leadership and ability to adapt to difficult situations through strategic planning and assertive communication.
+        </p>
     </body>
+    <script src="script.js"></script>
 </html>
