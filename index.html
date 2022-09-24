@@ -6,82 +6,158 @@
         <title>Pablo Osorio</title>
     </head>
     <body>
-        <div id="top" class="head">
-            <button id="leftButton" onclick="changeLanguage('eng')"><b>eng</b></button>
-            <button id="rightButton" onclick="changeLanguage('esp')"><b>esp</b></button>
+        <div class="header">
+            <div class="en">
+                <span class="english" id="toggle_en" onclick="toggle('es', 'en')">
+                    <span class="text"><b>En</b></span>
+                </span>
+            </div>
+            <div class="es" hidden>
+                <span class="spanish" id="toggle_es" onclick="toggle('en', 'es')" hidden>
+                    <span class="text"><b>Es</b></span>
+                </span>
+            </div>
+            <h1 class="title">Pablo Osorio Salazar</h1>
         </div>
-        <img src="./images/resume.jpg" title="Profile Picture" alt="Profile Picture"/>
-        <h1>
-            Pablo Osorio Salazar
-        </h1>
-        </br>
-        <li><b id="phone">Phone number: </b>+57 313 4419420</li>
-        <li><b id="email">Email: </b>osoriosalazarpablo@gmail.com</li>
+        <img class="image" src="./images/resume.jpg" title="Profile Picture" alt="Profile Picture"/>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <li>
+            <b class="en">Phone number: </b>
+            <b class="es" hidden>Número de teléfono: </b>
+            +57 313 4419420
+        </li>
+        <li>
+            <b class="en">Email: </b>
+            <b class="es" hidden>Correo electrónico: </b>
+            osoriosalazarpablo@gmail.com
+        </li>
+        <br>
+        <br>
         <div id="introduction">
-            <h2 id="title_one">
+            <h2 class="en">
                 Professional Profile
             </h2>
-            <p id="extraContent">
+            <h2 class="es" hidden>
+                Perfil Profesional
+            </h2>
+            <br>
+            <p class="en">
                 Bilingual psychologist with experience in project management, digital product development, qualitative and quantitative information analysis, market research, consumer psychology, knowledge of Excel (advanced), SQL (advanced) and Python (basic). With special interest in product areas, marketing based on consumer insights. Creative, motivated, with leadership and ability to adapt to difficult situations through strategic planning and assertive communication.
+            </p>
+            <p class="es" hidden>
+                Psicólogo bilingüe con experiencia en manejo de proyectos, desarrollo de productos digitales, análisis de información cualitativa, cuantitativa, investigación de mercado, psicología del consumidor, conocimiento de Excel (avanzado), SQL (avanzado) y Python (básico). Con especial interés en las áreas de producto, marketing basado en consumer insights. Creativo, motivado, con liderazgo y capacidad de adaptación frente a situaciones difíciles a través de la planificación estratégica y la comunicación asertiva.
             </p>
         </div>
         <div id="academic">
-            <h2 id="title_two">
+            <h2 class="en">
                 Academic Background
+            </h2>
+            <h2 class="es" hidden>
+                Formación Académica
             </h2>
             <ul>
                 <li><b>Pontificia Universidad Javeriana</b></li>
-                <ul>
-                    <li><b id="degree1">Degree: </b><span id="degree_one">Undergraduate in Psychology</span></li>
-                    <li><b id="place1">Location: </b>Bogotá D.C. (Colombia)</li>
-                    <li><b id="duration1">Duration: </b>2013-2018</li>
+                <ul class="en">
+                    <li><b>Degree: </b>Undergraduate in Psychology</li>
+                    <li><b>Location: </b>Bogotá D.C. (Colombia)</li>
+                    <li><b>Duration: </b>2013-2018</li>
+                </ul>
+                <ul class="es" hidden>
+                    <li><b>Título: </b>Pregrado en Psicología</li>
+                    <li><b>Lugar: </b>Bogotá D.C. (Colombia)</li>
+                    <li><b>Duración: </b>2013-2018</li>
                 </ul>
                 <li><b>Colegio Gimnasio Campestre</b></li>
-                <ul>
-                    <li><b id="degree2">Degree: </b><span id="degree_two">Academic Baccalaureate</span></li>
-                    <li><b id="place2">Location: </b>Bogotá D.C. (Colombia)</li>
-                    <li><b id="duration2">Duration: </b>1999-2013</li>
+                <ul class="en">
+                    <li><b>Degree: </b>Academic Baccalaureate</li>
+                    <li><b>Location: </b>Bogotá D.C. (Colombia)</li>
+                    <li><b>Duration: </b>1999-2013</li>
+                </ul>
+                <ul class="es" hidden>
+                    <li><b>Título: </b>Bachiller Académico</li>
+                    <li><b>Lugar: </b>Bogotá D.C. (Colombia)</li>
+                    <li><b>Duración: </b>1999-2013</li>
                 </ul>
                 <li><b>Coral Springs High School</b></li>
-                <ul>
-                    <li><b id="degree3">Degree: </b><span id="degree_three">6 months of study in grade 11 (junior)</span></li>
-                    <li><b id="place3">Location: </b>Bogotá D.C. (Colombia)</li>
-                    <li><b id="duration3">Duration: </b>2011</li>
+                <ul class="en">
+                    <li><b>Degree: </b>6 months of study in grade 11 (junior)</li>
+                    <li><b>Location: </b>Bogotá D.C. (Colombia)</li>
+                    <li><b>Duration: </b>2011</li>
+                </ul>
+                <ul class="es" hidden>
+                    <li><b>Degree: </b>6 meses de estudio en el grado 11</li>
+                    <li><b>Location: </b>Bogotá D.C. (Colombia)</li>
+                    <li><b>Duration: </b>2011</li>
                 </ul>
             </ul>
         </div>
         <div id="work">
-            <h2 id="title_three">
+            <h2 class="en">
                 Work Experience
+            </h2>
+            <h2 class="es" hidden>
+                Experiencia Laboral
             </h2>
             <ul>
                 <li><b>Snoonu</b></li>
-                <ul>
-                    <li><b id="snoonu1_duration_b">Duration: </b><span id="snoonu1_duration">2022-05-12 to present</span></li>
-                    <li><b id="snoonu1_position_b">Position: </b><span id="snoonu1_position">Senior Product Manager</span></li>
-                    <li><b id="snoonu1_functions">Functions:</b></li>
+                <ul class="en">
+                    <li><b>Duration: </b>2022-05-12 to present</li>
+                    <li><b>Position: </b>Senior Product Manager</li>
+                    <li><b>Functions:</b></li>
                     <ul>
-                        <li id="snoonu1_function1">Organization of technology squads for implementation of SCRUM methodology</li>
-                        <li id="snoonu1_function2">Planning road maps for the teams of: non-restaurant shops, delivery allocation algorithm, delivery app, delivery tracking platform, restaurant platform, support platform and order management</li>
-                        <li id="snoonu1_function3">Prioritization and definition of user stories</li>
-                        <li id="snoonu1_function4">Management of teams external to the company for special projects</li>
-                        <li id="snoonu1_function5">Development of projects to automate manual processes in order to achieve greater profitability in the area of operations</li>
-                        <li id="snoonu1_function6">Plan functionalities to maintain the traceability of refunds and gifts by the support team</li>
-                        <li id="snoonu1_function7">Organization of responsibilities for an implementation of the fulfillment service (3PL)</li>
+                        <li>Organization of technology squads for implementation of SCRUM methodology</li>
+                        <li>Planning road maps for the teams of: non-restaurant shops, delivery allocation algorithm, delivery app, delivery tracking platform, restaurant platform, support platform and order management</li>
+                        <li>Prioritization and definition of user stories</li>
+                        <li>Management of teams external to the company for special projects</li>
+                        <li>Development of projects to automate manual processes in order to achieve greater profitability in the area of operations</li>
+                        <li>Plan functionalities to maintain the traceability of refunds and gifts by the support team</li>
+                        <li>Organization of responsibilities for an implementation of the fulfillment service (3PL)</li>
+                    </ul>
+                </ul>
+                <ul class="es" hidden>
+                    <li><b>Duración: </b>2022-05-12 a presente</li>
+                    <li><b>Cargo: </b>Gerente de Producto Senior</li>
+                    <li><b>Funciones:</b></li>
+                    <ul>
+                        <li>Organización de los squads de tecnología para implementación de metodología SCRUM</li>
+                        <li>Planeación de roadmaps para los equipos de: Supermercados, Algoritmo de asignación de repartidores, aplicación de repartidores, plataforma de seguimiento de repartidores, plataforma de restaurantes, plataforma de soporte y gestión de pedidos</li>
+                        <li>Priorización y definición de historias de usuario</li>
+                        <li>Manejo de equipos externos a la compañía por proyectos especiales</li>
+                        <li>Desarrollo de proyectos para automatizar procesos manuales con el fin de conseguir mayor rentabilidad en el área de operaciones</li>
+                        <li>Planeación de funcionalidades para mantener la trazabilidad de reembolsos y regalos por parte del equipo de soporte</li>
+                        <li>Organización de responsabilidades para implementación de servicio fulfillment (3PL)</li>
                     </ul>
                 </ul>
                 <li><b>Chazki</b></li>
-                <ul>
-                    <li><b id="chazki1_duration_b">Duration: </b><span id="chazki1_duration">2021-08-18 to 2022-05-09</span></li>
-                    <li><b id="chazki1_position_b">Position: </b><span id="chazki1_position">Regional Product Head - Fulfillment</span></li>
-                    <li><b id="chazki1_functions">Functions:</b></li>
+                <ul class="en">
+                    <li><b>Duration: </b>2021-08-18 to 2022-05-09</li>
+                    <li><b>Position: </b>Regional Product Head - Fulfillment</li>
+                    <li><b>Functions:</b></li>
                     <ul>
-                        <li id="chazki1_function1">Plan and implement a functional migration of 4 systems for operational management to have a unified and robust architecture</li>
-                        <li id="chazki1_function2">Organization of development teams for the use of Scrum methodology</li>
-                        <li id="chazki1_function3">Understanding the needs of the operations team to develop automated flows that optimize times and mitigate the risk of human error in shipment management</li>
-                        <li id="chazki1_function4">Collaboration with the sales team to understand the importance, urgency and impact of new ad-hoc developments requested by customers (B2B) to drive growth in sales by integration</li>
-                        <li id="chazki1_function5">Standardization and structural definition of the rates for collection to client and payment to drivers together with the finance team</li>
-                        <li id="chazki1_function6">Creation of queries and development requests in reporting to handle shipment tracking at the company level together with the regional data team</li>
+                        <li>Plan and implement a functional migration of 4 systems for operational management to have a unified and robust architecture</li>
+                        <li>Organization of development teams for the use of Scrum methodology</li>
+                        <li>Understanding the needs of the operations team to develop automated flows that optimize times and mitigate the risk of human error in shipment management</li>
+                        <li>Collaboration with the sales team to understand the importance, urgency and impact of new ad-hoc developments requested by customers (B2B) to drive growth in sales by integration</li>
+                        <li>Standardization and structural definition of the rates for collection to client and payment to drivers together with the finance team</li>
+                        <li>Creation of queries and development requests in reporting to handle shipment tracking at the company level together with the regional data team</li>
+                    </ul>
+                </ul>
+                <ul class="es" hidden>
+                    <li><b>Duración: </b>2021-08-18 a 2022-05-09</li>
+                    <li><b>Cargo: </b>Cabeza Regional de Producto - Fulfillment</li>
+                    <li><b>Funciones:</b></li>
+                    <ul>
+                        <li>Planeación e implementación de una migración funcional de 4 sistemas para el manejo operativo para tener una arquitectura unificada y robusta</li>
+                        <li>Organización de equipos de desarrollo para uso de metodología Scrum</li>
+                        <li>Entendimiento de las necesidades del equipo de operaciones para desarrollar flujos automatizados que optimicen los tiempos y mitiguen el riesgo de error humano en la gestión de envíos</li>
+                        <li>Colaboración con el equipo comercial para entender la importancia, urgencia e impacto de nuevos desarrollos ad-hoc solicitados por clientes (B2B) para impulsar el crecimiento en ventas por integración</li>
+                        <li>Estandarización y definición estructural de las tarifas para cobro a cliente y pago a drivers junto al equipo de finanzas</li>
+                        <li>Creación de queries y solicitudes de desarrollo en reportería para manejar seguimiento de envíos a nivel compañía junto con el equipo regional de data</li>
                     </ul>
                 </ul>
             </ul>
