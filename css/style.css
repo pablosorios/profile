@@ -1,30 +1,20 @@
-body {
-    background-color: #f1f1f1;
-}
 .header {
     position: absolute;
     left: 0px;
     right: 0px;
     top: 0%;
-    bottom: 88.28%;
+    bottom: 90%;
+    height: 70px;
     background: #1F2D76;
-}
-.head {
-    background-color: #1F2D76;
-    color: white;
-    height: max-content;
-    padding: 40px;
-    margin: -10px;
-    margin-bottom: 0;
 }
 .switch {
     position: relative;
     left: 3.02%;
     right: 87.32%;
-    top: 40.66%;
-    bottom: 25.19%;
+    top: 20%;
+    bottom: 40%;
     display: inline-block;
-    margin: 0 5px;
+    margin: 0, 0;
 }
 .switch > span {
     position: absolute;
@@ -49,7 +39,6 @@ input.check-toggle-round-flat:checked ~ .on {
     padding-left: 2px;
     color: #44b6d5;
 }
-
 .switch > span.off {
     right: 0;
     padding-right: 4px;
@@ -121,10 +110,10 @@ input.check-toggle-round-flat:checked + label:after {
 }
 .title {
     position: absolute;
-    left: 33.63%;
-    right: 33.66%;
-    top: 26.3%;
-    bottom: 26.2%;
+    left: 30%;
+    right: 35%;
+    top: 20%;
+    bottom: 40%;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 35%;
@@ -134,13 +123,21 @@ input.check-toggle-round-flat:checked + label:after {
     align-items: center;
     text-align: center;
     color: #FFFFFF;
+    width: 350px
 }
 .image {
     position: absolute;
     width: 198.06px;
     height: 200px;
-    right: 36.94px;
-    top: 34px;
+    right: 06.94px;
+    top: 0%;
     border: 8px solid #1F2D76;
     border-radius: 177px;
+}
+.rest {
+    position: absolute;
+    top: 100px;
+}
+#introduction {
+    margin-top: 50px;
 }
