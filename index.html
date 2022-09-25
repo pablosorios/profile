@@ -7,21 +7,15 @@
     </head>
     <body>
         <div class="header">
-            <div class="en">
-                <span class="english" id="toggle_en" onclick="toggle('es', 'en')">
-                    <span class="text"><b>En</b></span>
-                </span>
-            </div>
-            <div class="es" hidden>
-                <span class="spanish" id="toggle_es" onclick="toggle('en', 'es')" hidden>
-                    <span class="text"><b>Es</b></span>
-                </span>
+            <div class="switch" onclick="changelang()">
+                <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
+                <label for="language-toggle"></label>
+                <span class="on">EN</span>
+                <span class="off">ES</span>
             </div>
             <h1 class="title">Pablo Osorio Salazar</h1>
         </div>
         <img class="image" src="./images/resume.jpg" title="Profile Picture" alt="Profile Picture"/>
-        <br>
-        <br>
         <br>
         <br>
         <br>
@@ -37,7 +31,6 @@
             osoriosalazarpablo@gmail.com
         </li>
         <br>
-        <br>
         <div id="introduction">
             <h2 class="en">
                 Professional Profile
@@ -45,7 +38,6 @@
             <h2 class="es" hidden>
                 Perfil Profesional
             </h2>
-            <br>
             <p class="en">
                 Bilingual psychologist with experience in project management, digital product development, qualitative and quantitative information analysis, market research, consumer psychology, knowledge of Excel (advanced), SQL (advanced) and Python (basic). With special interest in product areas, marketing based on consumer insights. Creative, motivated, with leadership and ability to adapt to difficult situations through strategic planning and assertive communication.
             </p>

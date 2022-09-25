@@ -1,6 +1,12 @@
+function changelang() {
+    var x = document.getElementById("language-toggle");
+    if (x.checked) {
+        toggle("es", "en")
+    } else {
+        toggle("en", "es")
+    }
+}
 function toggle(lang1, lang2) {
-    document.getElementById("toggle_" + lang1).hidden = false;
-    document.getElementById("toggle_" + lang2).hidden = true;
     var x = document.getElementsByClassName(lang1);
     var y = document.getElementsByClassName(lang2);
     for (let i = 0; i < x.length; i++) {
