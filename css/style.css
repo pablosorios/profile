@@ -111,7 +111,7 @@ input.check-toggle-round-flat:checked + label:after {
     margin-right: auto;
     right: 20%;
     left: 16%;
-    top: 20%;
+    top: 35%;
     bottom: 40%;
     font-family: 'Rubik';
     font-style: normal;
@@ -123,10 +123,11 @@ input.check-toggle-round-flat:checked + label:after {
     align-items: center;
     color: #FFFFFF;
     width: max-content;
+    text-decoration: none;
 }
 .image {
     position: absolute;
-    top: 1%;
+    top: 30%;
     left: auto;
     right: 5px;
     width: 195px;
@@ -150,4 +151,25 @@ input.check-toggle-round-flat:checked + label:after {
 .rest {
     position: absolute;
     top: 85px;
+}
+.badge {
+    margin-left: 5px;
+    height: 24px;
+    width: max-content;
+    border: 1px solid #1F2D76;
+    border-radius: 40px;
+    z-index: 1;
+    background-color: #ffffff;
+}
+.badge_image {
+    position: relative;
+    height: 100%;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.badge_text {
+    position: relative;
+    top: 5%;
+    color: #1F2D76;
+    display: inline-block;
 }
