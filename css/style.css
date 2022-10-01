@@ -12,8 +12,8 @@ body {
 }
 .switch {
     position: relative;
-    left: 3.02%;
-    right: 87.32%;
+    right: 0%;
+    left: 3%;
     top: 20%;
     bottom: 40%;
     display: inline-block;
@@ -111,8 +111,10 @@ input.check-toggle-round-flat:checked + label:after {
 }
 .title {
     position: absolute;
-    left: 30%;
-    right: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 205px;
+    right: 205px;
     top: 20%;
     bottom: 40%;
     font-family: 'Rubik';
@@ -121,33 +123,36 @@ input.check-toggle-round-flat:checked + label:after {
     font-size: 200%;
     line-height: 30px;
     display: flex;
-    align-items: center;
     text-align: center;
+    align-items: center;
     color: #FFFFFF;
-    width: 350px
+    width: max-content;
 }
 .image {
     position: absolute;
-    width: 198.06px;
-    height: 200px;
-    right: 06.94px;
     top: 0%;
+    left: auto;
+    right: 5px;
+    width: 200px;
+    height: 200px;
     border: 8px solid #1F2D76;
     border-radius: 177px;
+    z-index: 1;
 }
 .links {
     font-size: 110%;
 }
 .subtitle {
-    font-size: 120%;
+    font-size: 150%;
     text-align: center;
     background-color: #1F2D76;
     color: #FFFFFF;
     height: max-content;
     margin-left: -5%;
     width: 105%;
+    padding: 7px 0;
 }
 .rest {
     position: absolute;
-    top: 100px;
+    top: 85px;
 }
