@@ -173,3 +173,9 @@ input.check-toggle-round-flat:checked + label:after {
     color: #1F2D76;
     display: inline-block;
 }
+footer {
+    padding-top: 10px;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
